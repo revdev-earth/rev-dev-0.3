@@ -3,8 +3,18 @@ import { routing } from "@/i18n/routing";
 
 export type Locale = (typeof routing.locales)[number];
 
+function normalizeSiteUrl(url: string) {
+  const withProtocol = /^https?:\/\//.test(url) ? url : `https://${url}`;
+  return withProtocol.replace(/\/$/, "");
+}
+
 export const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ?? "https://revdev.com";
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? normalizeSiteUrl(process.env.VERCEL_PROJECT_PRODUCTION_URL)
+    : process.env.VERCEL_URL
+      ? normalizeSiteUrl(process.env.VERCEL_URL)
+      : "http://localhost:3000");
 
 export const siteName = "RevDev";
 
