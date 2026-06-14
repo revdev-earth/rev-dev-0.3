@@ -1,8 +1,28 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import Reveal from "@/components/Reveal";
 import { partners } from "@/lib/partners";
+import { pageSeo } from "@/lib/seoContent";
+import { pageMetadata, type Locale } from "@/lib/site";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const typedLocale = locale as Locale;
+  const seo = pageSeo[typedLocale].partners;
+
+  return pageMetadata({
+    locale: typedLocale,
+    path: "partners",
+    title: seo.title,
+    description: seo.description,
+  });
+}
 
 export default async function PartnersPage({
   params,

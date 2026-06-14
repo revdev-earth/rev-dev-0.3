@@ -17,69 +17,51 @@
     "servicesSubtitle": "Software de principio a fin, de la idea al lanzamiento.",
     "processTitle": "Cómo trabajamos",
     "processSubtitle": "Un camino claro de tu idea a un producto en vivo.",
-    "worksTitle": "Trabajos seleccionados",
+    "worksTitle": "Casos en vivo",
     "ctaTitle": "Empecemos <accent>algo grande</accent>",
     "ctaButton": "Iniciar un proyecto",
     "bannerTitle": "Proyectos, socios y servicios"
   },
   "Services": {
-    "title": "Servicios",
-    "subtitle": "Todo lo que necesitas para lanzar y hacer crecer un producto.",
+    "title": "Qué hacemos",
+    "subtitle": "De la primera conversación al último deploy, todo lo que tu producto necesita para existir, crecer y perdurar.",
     "items": [
       {
-        "lead": "Hecho para durar.",
-        "title": "Software e infraestructura",
-        "description": "Ponemos los cimientos que sostienen todo, la <accent>arquitectura silenciosa</accent> bajo cada gran producto, para que lo que construyes hoy siga en pie mañana."
+        "problem": "De la chispa a la pantalla",
+        "title": "Producto nuevo, desde cero",
+        "description": "Tú traes la visión. Nosotros todo lo demás, diseño, frontend, backend, infraestructura, para que tu idea se vuelva un producto que <accent>se siente inevitable</accent>. Cantante nació de una conversación sobre timba. Properties empezó con una pregunta sobre vivienda. Ambos están en vivo hoy."
       },
       {
-        "lead": "Lo que se ve.",
-        "title": "Frontend",
-        "description": "La primera impresión, la sensación en pantalla. Creamos interfaces que hacen sentir a tu gente <accent>como en casa</accent> desde el primer segundo."
+        "problem": "Inteligencia en movimiento",
+        "title": "AI, automatización y tiempo real",
+        "description": "Bots que operan mientras duermes. Agentes que deciden con <accent>velocidad y precisión</accent>. RevTrade corre en Deriv 24/7 con gráficos en vivo, WebSockets y ejecución en Rust. Construimos los motores silenciosos que nunca dejan de pensar."
       },
       {
-        "lead": "La sala de máquinas.",
-        "title": "Backend",
-        "description": "Fuera de vista, nunca fuera de mente. Afinamos los sistemas conectados que mantienen todo rápido, seguro y <accent>siempre respondiendo</accent>."
+        "problem": "Claridad antes de construir",
+        "title": "Inteligencia de mercado y estrategia",
+        "description": "Antes de una sola línea de código, necesitas saber dónde estás parado y hacia dónde apuntar. Mapeamos tu mercado, tus usuarios, tu competencia, y te entregamos una estrategia con los <accent>ojos bien abiertos</accent> y el viento a favor."
       },
       {
-        "lead": "Forma con sentimiento.",
-        "title": "Diseño",
-        "description": "Trazamos el camino más corto entre tu idea y <accent>el corazón</accent> de quien la ve, para que el mundo entienda lo que tienes para dar."
-      },
-      {
-        "lead": "Mirar hondo.",
-        "title": "Inteligencia de mercado y producto",
-        "description": "Leemos tus datos y las corrientes del mercado, para que cada decisión se tome con los <accent>ojos abiertos</accent> y el viento a favor."
-      },
-      {
-        "lead": "Entender a la gente.",
-        "title": "Investigación e insight",
-        "description": "Escuchamos de cerca lo que las personas piensan, sienten y hacen, y traemos las verdades que <accent>vuelven certeza</accent> a las corazonadas."
-      },
-      {
-        "lead": "El ajá.",
-        "title": "Estrategia de marca y lanzamiento",
-        "description": "Encontramos la chispa, la verdad que hace que <accent>todo encaje</accent>, y le damos su filo a la creatividad."
-      },
-      {
-        "lead": "Lo que viene.",
-        "title": "Tendencias y prospectiva",
-        "description": "Captamos las señales antes de que se vuelvan ruido, para que <accent>lideres el momento</accent> en vez de perseguirlo."
-      },
-      {
-        "lead": "Con propósito.",
-        "title": "Estrategia cultural",
-        "description": "Sintonizamos tu marca con los movimientos y ánimos del mundo, para que aparezcas <accent>con significado</accent>, no solo con presencia."
-      },
-      {
-        "lead": "Por qué elegimos.",
-        "title": "Inteligencia del comportamiento",
-        "description": "Descubrimos las emociones detrás de cada decisión, y las usamos para conectar, <accent>mover y perdurar</accent>."
+        "problem": "Hecho para cargar peso",
+        "title": "Escalar, modernizar y reforzar",
+        "description": "Tu producto está en vivo pero se arrastra. Rediseñamos, refactorizamos y reforzamos, <accent>velocidad, estabilidad, seguridad</accent>, para que aguante 10 veces más carga y se sienta más ligero que cuando empezó."
       }
     ],
+    "hiddenNeedsTitle": "Lo que no sabías que necesitabas",
+    "hiddenNeedsSubtitle": "Todo gran producto tiene una capa silenciosa debajo. Estas son las piezas que la mayoría descubre que necesita después del lanzamiento, nosotros las construimos desde el inicio.",
+    "hiddenNeeds": [
+      "Panel de administración para gestionar todo desde un solo lugar",
+      "Autenticación de usuarios, perfiles y permisos",
+      "Correos y notificaciones automatizadas",
+      "Monitoreo en tiempo real y rastreo de errores",
+      "Analíticas para entender cómo usan tu producto",
+      "Gestión de contenido para personas no técnicas de tu equipo",
+      "Respaldos automáticos y seguridad de datos",
+      "Límites de API y protección contra abusos"
+    ],
     "contactCta": "Empecemos <accent>algo grande</accent>",
-    "contactTitle": "¿Te gustaría más información?",
-    "fieldWhat": "¿Cuál servicio?",
+    "contactTitle": "Cuéntanos qué tienes en mente",
+    "fieldWhat": "¿Qué necesitas?",
     "fieldEmail": "Correo",
     "fieldMessage": "¿Algo más?",
     "send": "Enviar",
@@ -125,7 +107,7 @@
     "subtitle": "Crecemos con las personas con las que construimos.",
     "currentTitle": "Nuestros grandes socios",
     "proposalsTitle": "Propón una alianza",
-    "proposalsSubtitle": "Partnership, corporativo o soluciones de negocio — cuéntanos qué tienes en mente."
+    "proposalsSubtitle": "Partnership, corporativo o soluciones de negocio, cuéntanos qué tienes en mente."
   },
   "Us": {
     "title": "Nosotros",
@@ -133,11 +115,11 @@
     "blocks": [
       {
         "title": "Nuestra esencia",
-        "description": "El núcleo de RevDev — donde los proyectos innovadores se encienden y las soluciones de vanguardia prosperan. Nuestra misión es catalizar el éxito de nuestros clientes con tecnología que redefine lo posible."
+        "description": "El núcleo de RevDev, donde los proyectos innovadores se encienden y las soluciones de vanguardia prosperan. Nuestra misión es catalizar el éxito de nuestros clientes con tecnología que redefine lo posible."
       },
       {
         "title": "Nuestros valores",
-        "description": "Nuestra cultura está esculpida por valores firmes — la energía detrás de cada decisión, interacción y colaboración con nuestra comunidad de socios, clientes y soñadores."
+        "description": "Nuestra cultura está esculpida por valores firmes, la energía detrás de cada decisión, interacción y colaboración con nuestra comunidad de socios, clientes y soñadores."
       },
       {
         "title": "Evolución en movimiento",

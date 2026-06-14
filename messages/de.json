@@ -25,69 +25,51 @@
     "servicesSubtitle": "Software von der Idee bis zum Launch.",
     "processTitle": "Wie wir arbeiten",
     "processSubtitle": "Ein klarer Weg von deiner Idee zum fertigen Produkt.",
-    "worksTitle": "Ausgewählte Arbeiten",
+    "worksTitle": "Live Case Studies",
     "ctaTitle": "Lass uns <accent>etwas Großartiges</accent> beginnen",
     "ctaButton": "Projekt starten",
     "bannerTitle": "Projekte, Partner und Leistungen"
   },
   "Services": {
-    "title": "Leistungen",
-    "subtitle": "Alles, was du brauchst, um ein Produkt zu launchen und wachsen zu lassen.",
+    "title": "Was wir tun",
+    "subtitle": "Vom ersten Gespräch bis zum letzten Deploy, alles, was dein Produkt braucht, um zu existieren, zu wachsen und zu bestehen.",
     "items": [
       {
-        "lead": "Für die Dauer gebaut.",
-        "title": "Software & Infrastruktur",
-        "description": "Wir legen das Fundament, das alles trägt, die <accent>stille Architektur</accent> unter jedem großen Produkt, damit das, was du heute baust, morgen noch steht."
+        "problem": "Vom Funken auf den Bildschirm",
+        "title": "Neues Produkt, von Grund auf",
+        "description": "Du bringst die Vision. Wir bringen alles andere, Design, Frontend, Backend, Infrastruktur, damit deine Idee zu einem Produkt wird, das sich <accent>unausweichlich anfühlt</accent>. Cantante begann als Gespräch über Timba. Properties fing mit einer Frage zum Wohnen an. Beide sind heute live."
       },
       {
-        "lead": "Was man sieht.",
-        "title": "Frontend",
-        "description": "Der erste Eindruck, das Gefühl am Bildschirm. Wir gestalten Oberflächen, in denen sich deine Leute vom ersten Moment an <accent>zu Hause fühlen</accent>."
+        "problem": "Intelligenz in Bewegung",
+        "title": "KI, Automatisierung & Echtzeitsysteme",
+        "description": "Bots, die handeln während du schläfst. Agenten, die mit <accent>Geschwindigkeit und Präzision</accent> entscheiden. RevTrade läuft auf Deriv rund um die Uhr, mit Live-Charts, WebSockets und Rust-Ausführung. Wir bauen die stillen Motoren, die nie aufhören zu denken."
       },
       {
-        "lead": "Der Maschinenraum.",
-        "title": "Backend",
-        "description": "Unsichtbar, nie vergessen. Wir stimmen die vernetzten Systeme ab, die alles schnell, sicher und <accent>stets antwortbereit</accent> halten."
+        "problem": "Klarheit vor dem Bau",
+        "title": "Marktintelligenz & Strategie",
+        "description": "Bevor eine einzige Zeile Code geschrieben wird, musst du wissen, wo du stehst und wohin du zielst. Wir kartieren deinen Markt, deine Nutzer, deine Konkurrenz, und übergeben dir eine Strategie mit <accent>offenen Augen</accent> und Rückenwind."
       },
       {
-        "lead": "Form mit Gefühl.",
-        "title": "Design",
-        "description": "Wir zeichnen den kürzesten Weg zwischen deiner Idee und <accent>dem Herzen</accent> derer, die sie sehen, damit die Welt versteht, was du zu geben hast."
-      },
-      {
-        "lead": "Tief eintauchen.",
-        "title": "Markt- & Produktintelligenz",
-        "description": "Wir lesen deine Daten und die Strömungen des Marktes, damit jede Entscheidung mit <accent>offenen Augen</accent> und Rückenwind fällt."
-      },
-      {
-        "lead": "Menschen verstehen.",
-        "title": "Forschung & Insight",
-        "description": "Wir hören genau hin, was Menschen denken, fühlen und tun, und bringen die Wahrheiten zurück, die aus <accent>Vermutungen Gewissheit</accent> machen."
-      },
-      {
-        "lead": "Das Aha.",
-        "title": "Marken- & Go-to-Market-Strategie",
-        "description": "Wir finden den Funken, die Wahrheit, die <accent>alles zusammenfügt</accent>, und geben der Kreativität ihren Vorsprung."
-      },
-      {
-        "lead": "Was als Nächstes kommt.",
-        "title": "Trends & Vorausschau",
-        "description": "Wir fangen die Signale ein, bevor sie zu Lärm werden, damit du den <accent>Moment anführst</accent>, statt ihm hinterherzulaufen."
-      },
-      {
-        "lead": "Mit Sinn.",
-        "title": "Kulturstrategie",
-        "description": "Wir stimmen deine Marke auf die Bewegungen und Stimmungen der Welt ab, damit du <accent>mit Bedeutung</accent> erscheinst, nicht nur mit Präsenz."
-      },
-      {
-        "lead": "Warum wir wählen.",
-        "title": "Verhaltensintelligenz",
-        "description": "Wir entdecken die Emotionen hinter jeder Entscheidung und nutzen sie, um zu verbinden, <accent>zu bewegen und zu bleiben</accent>."
+        "problem": "Gebaut, um Gewicht zu tragen",
+        "title": "Skalieren, modernisieren & härten",
+        "description": "Dein Produkt ist live, aber es schleppt sich. Wir gestalten neu, refaktorisieren und verstärken, <accent>Geschwindigkeit, Stabilität, Sicherheit</accent>, damit es die 10-fache Last trägt und sich leichter anfühlt als am Anfang."
       }
     ],
+    "hiddenNeedsTitle": "Was du nicht wusstest, dass du es brauchst",
+    "hiddenNeedsSubtitle": "Jedes großartige Produkt hat eine stille Schicht darunter. Das sind die Teile, die die meisten erst nach dem Launch entdecken, wir bauen sie von Anfang an ein.",
+    "hiddenNeeds": [
+      "Admin-Dashboard, um alles von einem Ort aus zu verwalten",
+      "Benutzer-Authentifizierung, Profile und Berechtigungen",
+      "Automatisierte E-Mails und Benachrichtigungen",
+      "Echtzeit-Überwachung und Fehlerverfolgung",
+      "Analysen, um zu verstehen, wie Nutzer dein Produkt verwenden",
+      "Content-Management für nicht-technische Teammitglieder",
+      "Automatische Backups und Datensicherheit",
+      "API-Ratenbegrenzung und Missbrauchsschutz"
+    ],
     "contactCta": "Lass uns <accent>etwas Großartiges</accent> beginnen",
-    "contactTitle": "Möchtest du mehr Informationen?",
-    "fieldWhat": "Welche Leistung?",
+    "contactTitle": "Erzähl uns, was du vorhast",
+    "fieldWhat": "Was brauchst du?",
     "fieldEmail": "E-Mail",
     "fieldMessage": "Sonst noch etwas?",
     "send": "Senden",
@@ -133,7 +115,7 @@
     "subtitle": "Wir wachsen mit den Menschen, mit denen wir bauen.",
     "currentTitle": "Unsere großartigen Partner",
     "proposalsTitle": "Eine Allianz vorschlagen",
-    "proposalsSubtitle": "Partnerschaft, Unternehmen oder Geschäftslösungen — sag uns, was du im Sinn hast."
+    "proposalsSubtitle": "Partnerschaft, Unternehmen oder Geschäftslösungen, sag uns, was du im Sinn hast."
   },
   "Us": {
     "title": "Über uns",
@@ -141,11 +123,11 @@
     "blocks": [
       {
         "title": "Unser Wesen",
-        "description": "Der Kern von RevDev — wo innovative Projekte entzünden und modernste Lösungen gedeihen. Unsere Mission: den Erfolg unserer Kunden mit Technik vorantreiben, die das Mögliche neu definiert."
+        "description": "Der Kern von RevDev, wo innovative Projekte entzünden und modernste Lösungen gedeihen. Unsere Mission: den Erfolg unserer Kunden mit Technik vorantreiben, die das Mögliche neu definiert."
       },
       {
         "title": "Unsere Werte",
-        "description": "Unsere Kultur ist von festen Werten geprägt — die Energie hinter jeder Entscheidung und Zusammenarbeit mit unserer Gemeinschaft aus Partnern, Kunden und Träumern."
+        "description": "Unsere Kultur ist von festen Werten geprägt, die Energie hinter jeder Entscheidung und Zusammenarbeit mit unserer Gemeinschaft aus Partnern, Kunden und Träumern."
       },
       {
         "title": "Evolution in Bewegung",

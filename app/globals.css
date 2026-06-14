@@ -3,11 +3,18 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Bright product gold. --gold matches the brand swatch; the surrounding
+     stops keep text gradients from reading as flat yellow. */
+  --gold: #ffd200;
+  --gold-deep: #a87500;
+  --gold-light: #fff2a6;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-gold: var(--gold);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-accent: var(--font-accent);
@@ -17,6 +24,9 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --gold: #ffd200;
+    --gold-deep: #b88900;
+    --gold-light: #fff6bf;
   }
 }
 
@@ -24,6 +34,18 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  hyphens: none;
+  cursor: default;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+input,
+textarea {
+  cursor: text;
 }
 
 /* Infinite horizontal marquee (logo / awards strip). The track is rendered
@@ -39,4 +61,70 @@ body {
 
 .animate-marquee {
   animation: marquee 30s linear infinite;
+}
+
+/* Solid gold metallic text (static). Use for emphasized / prestige words. */
+.gold-text {
+  background: linear-gradient(
+    100deg,
+    var(--gold-deep) 0%,
+    var(--gold) 45%,
+    var(--gold-light) 50%,
+    var(--gold) 55%,
+    var(--gold-deep) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Gold sweep over otherwise plain text. At rest the text is normal foreground;
+   the GoldSweep component adds .is-sweeping once per hover. */
+@keyframes gold-sweep-once {
+  from {
+    background-position: 140% 0;
+  }
+  to {
+    background-position: -40% 0;
+  }
+}
+
+.gold-sweep {
+  background: linear-gradient(
+    120deg,
+    var(--foreground) 0%,
+    var(--foreground) 48%,
+    var(--gold-deep) 49%,
+    var(--gold-light) 50%,
+    var(--gold-deep) 51%,
+    var(--foreground) 52%,
+    var(--foreground) 100%
+  );
+  background-size: 300% 100%;
+  background-position: 140% 0;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  will-change: background-position;
+}
+
+.gold-sweep.is-sweeping {
+  animation: gold-sweep-once 1.5s linear 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee,
+  .gold-sweep {
+    animation: none;
+  }
+  .gold-sweep.is-sweeping {
+    transition: none;
+  }
+  .gold-sweep {
+    background: none;
+    -webkit-text-fill-color: currentColor;
+    color: inherit;
+  }
 }

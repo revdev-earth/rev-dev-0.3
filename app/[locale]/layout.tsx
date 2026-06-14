@@ -6,6 +6,15 @@ import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { pageSeo } from "@/lib/seoContent";
+import {
+  absoluteUrl,
+  jsonLd,
+  pageMetadata,
+  siteName,
+  siteUrl,
+  type Locale,
+} from "@/lib/site";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -26,14 +35,31 @@ const instrumentSerif = Instrument_Serif({
   style: ["normal", "italic"],
 });
 
-export const metadata: Metadata = {
-  title: {
-    default: "RevDev — From idea to launch",
-    template: "%s — RevDev",
-  },
-  description:
-    "RevDev is an end-to-end software studio: idea, strategy, build and launch.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    return {};
+  }
+
+  const seo = pageSeo[locale as Locale].home;
+  return {
+    ...pageMetadata({
+      locale: locale as Locale,
+      path: "",
+      title: seo.title,
+      description: seo.description,
+    }),
+    metadataBase: new URL(siteUrl),
+    title: {
+      default: seo.title,
+      template: `%s - ${siteName}`,
+    },
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -51,6 +77,28 @@ export default async function LocaleLayout({
     notFound();
   }
   setRequestLocale(locale);
+  const typedLocale = locale as Locale;
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${siteUrl}/#organization`,
+    name: siteName,
+    url: siteUrl,
+    email: "hello@revdev.com",
+    description: pageSeo[typedLocale].home.description,
+    sameAs: [],
+  };
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${siteUrl}/#website`,
+    name: siteName,
+    url: absoluteUrl(typedLocale),
+    inLanguage: typedLocale,
+    publisher: {
+      "@id": `${siteUrl}/#organization`,
+    },
+  };
 
   return (
     <html
@@ -58,6 +106,12 @@ export default async function LocaleLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: jsonLd([organizationJsonLd, websiteJsonLd]),
+          }}
+        />
         <NextIntlClientProvider>
           <Header />
           <main className="flex-1">{children}</main>

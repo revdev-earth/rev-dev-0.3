@@ -1,5 +1,8 @@
+"use client";
+
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import GoldSweep from "./GoldSweep";
 
 type Column = { heading: string; links: string[] };
 
@@ -23,7 +26,9 @@ export default function Footer() {
     <footer className="border-t border-black/10 dark:border-white/10">
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 sm:grid-cols-2 md:grid-cols-4">
         <div>
-          <div className="text-lg font-bold">RevDev</div>
+          <GoldSweep className="inline-block text-lg font-bold">
+            RevDev
+          </GoldSweep>
           <p className="text-foreground/60 mt-2 text-sm">{t("tagline")}</p>
         </div>
 

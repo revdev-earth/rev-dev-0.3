@@ -62,6 +62,16 @@ export default function Hero() {
       {/* Dark overlay for text legibility */}
       <div className="absolute inset-0 -z-10 bg-black/50" />
 
+      {/* Warm gold glow rising from the lower-left — prestige accent. */}
+      <div
+        className="absolute inset-0 -z-10 opacity-60"
+        style={{
+          background:
+            "radial-gradient(60% 80% at 15% 100%, color-mix(in srgb, var(--gold) 35%, transparent), transparent 70%)",
+        }}
+        aria-hidden
+      />
+
       <div className="relative mx-auto w-full max-w-6xl px-6">
         <AnimatePresence mode="wait">
           <motion.div
@@ -73,7 +83,7 @@ export default function Hero() {
             className="flex flex-col gap-2 text-4xl font-semibold tracking-tight text-white md:text-6xl lg:text-7xl"
           >
             {lines.map((line) => (
-              <motion.span key={line} variants={lineVariant}>
+              <motion.span key={line} variants={lineVariant} className="gold-sweep">
                 {line}
               </motion.span>
             ))}

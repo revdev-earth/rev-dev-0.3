@@ -21,69 +21,51 @@
     "servicesSubtitle": "End-to-end software, from idea to launch.",
     "processTitle": "How we work",
     "processSubtitle": "A clear path from your idea to a live product.",
-    "worksTitle": "Selected works",
+    "worksTitle": "Live case studies",
     "ctaTitle": "Let's start <accent>something great</accent>",
     "ctaButton": "Start a project",
     "bannerTitle": "Projects, partners and services"
   },
   "Services": {
-    "title": "Services",
-    "subtitle": "Everything you need to ship and grow a product.",
+    "title": "What we do",
+    "subtitle": "From the first conversation to the last deploy, everything your product needs to exist, grow and last.",
     "items": [
       {
-        "lead": "Built to last.",
-        "title": "Software & infrastructure",
-        "description": "We lay the foundations that hold everything up, the <accent>quiet architecture</accent> beneath every great product, so what you build today still stands tomorrow."
+        "problem": "From spark to screen",
+        "title": "New product, from scratch",
+        "description": "You bring the vision. We bring everything else, design, frontend, backend, infrastructure, so your idea becomes a product that <accent>feels inevitable</accent>. Cantante started as a conversation about timba. Properties began with a question about housing. Both are live today."
       },
       {
-        "lead": "What people see.",
-        "title": "Frontend",
-        "description": "The first impression, the feeling on screen. We craft interfaces that make your people <accent>feel at home</accent> from the very first second."
+        "problem": "Intelligence in motion",
+        "title": "AI, automation & real-time systems",
+        "description": "Bots that trade while you sleep. Agents that decide with <accent>speed and precision</accent>. RevTrade runs on Deriv 24/7 with live charts, WebSockets and Rust-powered execution. We build the quiet engines that never stop thinking."
       },
       {
-        "lead": "The engine room.",
-        "title": "Backend",
-        "description": "Out of sight, never out of mind. We tune the connected systems that keep everything fast, safe and <accent>always answering</accent>."
+        "problem": "Clarity before the build",
+        "title": "Market intelligence & strategy",
+        "description": "Before a single line of code, you need to know where you stand and where to aim. We map your market, your users, your competitors, and hand you a strategy with <accent>eyes wide open</accent> and the wind at your back."
       },
       {
-        "lead": "Form with feeling.",
-        "title": "Design",
-        "description": "We draw the shortest path between your idea and <accent>the heart</accent> of whoever sees it, so the whole world understands what you have to give."
-      },
-      {
-        "lead": "Diving deep.",
-        "title": "Market & product intelligence",
-        "description": "We read your data and the currents of the market, so every decision is made with <accent>eyes wide open</accent> and the wind at your back."
-      },
-      {
-        "lead": "Understanding people.",
-        "title": "Research & insight",
-        "description": "We listen closely to what people think, feel and do, and bring back the truths that turn <accent>guesses into certainty</accent>."
-      },
-      {
-        "lead": "The ah-ha.",
-        "title": "Brand & go-to-market strategy",
-        "description": "We find the spark, the truth that makes <accent>everything click</accent>, and hand creativity its edge."
-      },
-      {
-        "lead": "What's next.",
-        "title": "Trends & foresight",
-        "description": "We catch the signals before they become noise, so you <accent>lead the moment</accent> instead of chasing it."
-      },
-      {
-        "lead": "With purpose.",
-        "title": "Cultural strategy",
-        "description": "We tune your brand to the movements and moods of the world, so you show up <accent>with meaning</accent>, not just presence."
-      },
-      {
-        "lead": "Why we choose.",
-        "title": "Behavioral intelligence",
-        "description": "We uncover the emotions behind every decision, and use them to connect, <accent>move and last</accent>."
+        "problem": "Built to carry weight",
+        "title": "Scale, modernize & harden",
+        "description": "Your product is live but it's dragging. We redesign, refactor and reinforce, <accent>speed, stability, security</accent>, so it handles 10x the load and feels lighter than when it started."
       }
     ],
+    "hiddenNeedsTitle": "The things you didn't know you needed",
+    "hiddenNeedsSubtitle": "Every great product has a quiet layer beneath it. These are the pieces most people only discover they need after launch, we build them in from the start.",
+    "hiddenNeeds": [
+      "Admin dashboard to manage everything from one place",
+      "User authentication, profiles and permissions",
+      "Automated emails and notifications",
+      "Real-time monitoring and error tracking",
+      "Analytics to understand how people use your product",
+      "Content management for non-technical people on your team",
+      "Automated backups and data security",
+      "API rate limiting and abuse protection"
+    ],
     "contactCta": "Let's start <accent>something great</accent>",
-    "contactTitle": "Want more information?",
-    "fieldWhat": "Which service?",
+    "contactTitle": "Tell us what you have in mind",
+    "fieldWhat": "What do you need?",
     "fieldEmail": "Email",
     "fieldMessage": "Anything else?",
     "send": "Send",
@@ -129,7 +111,7 @@
     "subtitle": "We grow with the people we build alongside.",
     "currentTitle": "Our great partners",
     "proposalsTitle": "Propose an alliance",
-    "proposalsSubtitle": "Partnership, corporate or business solutions — tell us what you have in mind."
+    "proposalsSubtitle": "Partnership, corporate or business solutions, tell us what you have in mind."
   },
   "Us": {
     "title": "About us",
@@ -137,11 +119,11 @@
     "blocks": [
       {
         "title": "Our essence",
-        "description": "The very core of RevDev — where innovative projects ignite and cutting-edge solutions thrive. Our mission is to catalyze our clients' success with tech that redefines possibilities."
+        "description": "The very core of RevDev, where innovative projects ignite and cutting-edge solutions thrive. Our mission is to catalyze our clients' success with tech that redefines possibilities."
       },
       {
         "title": "Our values",
-        "description": "Our culture is sculpted by unwavering values — the energy behind every decision, interaction and collaboration with our community of partners, clients and dreamers."
+        "description": "Our culture is sculpted by unwavering values, the energy behind every decision, interaction and collaboration with our community of partners, clients and dreamers."
       },
       {
         "title": "Evolution in motion",

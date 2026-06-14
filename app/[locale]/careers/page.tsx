@@ -1,5 +1,25 @@
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
+import { pageSeo } from "@/lib/seoContent";
+import { pageMetadata, type Locale } from "@/lib/site";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const typedLocale = locale as Locale;
+  const seo = pageSeo[typedLocale].careers;
+
+  return pageMetadata({
+    locale: typedLocale,
+    path: "careers",
+    title: seo.title,
+    description: seo.description,
+  });
+}
 
 export default async function CareersPage({
   params,
