@@ -1,0 +1,208 @@
+{
+  "Nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "partners": "Socios",
+    "us": "Nosotros",
+    "careers": "Empleo"
+  },
+  "Home": {
+    "heroSlides": [
+      ["Logra lo que deseas", "Está a unos pasos", "Hagamos que suceda"],
+      ["De una idea", "a un producto real", "lanzado y listo para crecer"],
+      ["Diseño que habla", "código que perdura", "alcance que sigue creciendo"]
+    ],
+    "servicesTitle": "Qué hacemos",
+    "servicesSubtitle": "Software de principio a fin, de la idea al lanzamiento.",
+    "processTitle": "Cómo trabajamos",
+    "processSubtitle": "Un camino claro de tu idea a un producto en vivo.",
+    "worksTitle": "Trabajos seleccionados",
+    "ctaTitle": "Empecemos <accent>algo grande</accent>",
+    "ctaButton": "Iniciar un proyecto",
+    "bannerTitle": "Proyectos, socios y servicios"
+  },
+  "Services": {
+    "title": "Servicios",
+    "subtitle": "Todo lo que necesitas para lanzar y hacer crecer un producto.",
+    "items": [
+      {
+        "lead": "Hecho para durar.",
+        "title": "Software e infraestructura",
+        "description": "Ponemos los cimientos que sostienen todo, la <accent>arquitectura silenciosa</accent> bajo cada gran producto, para que lo que construyes hoy siga en pie mañana."
+      },
+      {
+        "lead": "Lo que se ve.",
+        "title": "Frontend",
+        "description": "La primera impresión, la sensación en pantalla. Creamos interfaces que hacen sentir a tu gente <accent>como en casa</accent> desde el primer segundo."
+      },
+      {
+        "lead": "La sala de máquinas.",
+        "title": "Backend",
+        "description": "Fuera de vista, nunca fuera de mente. Afinamos los sistemas conectados que mantienen todo rápido, seguro y <accent>siempre respondiendo</accent>."
+      },
+      {
+        "lead": "Forma con sentimiento.",
+        "title": "Diseño",
+        "description": "Trazamos el camino más corto entre tu idea y <accent>el corazón</accent> de quien la ve, para que el mundo entienda lo que tienes para dar."
+      },
+      {
+        "lead": "Mirar hondo.",
+        "title": "Inteligencia de mercado y producto",
+        "description": "Leemos tus datos y las corrientes del mercado, para que cada decisión se tome con los <accent>ojos abiertos</accent> y el viento a favor."
+      },
+      {
+        "lead": "Entender a la gente.",
+        "title": "Investigación e insight",
+        "description": "Escuchamos de cerca lo que las personas piensan, sienten y hacen, y traemos las verdades que <accent>vuelven certeza</accent> a las corazonadas."
+      },
+      {
+        "lead": "El ajá.",
+        "title": "Estrategia de marca y lanzamiento",
+        "description": "Encontramos la chispa, la verdad que hace que <accent>todo encaje</accent>, y le damos su filo a la creatividad."
+      },
+      {
+        "lead": "Lo que viene.",
+        "title": "Tendencias y prospectiva",
+        "description": "Captamos las señales antes de que se vuelvan ruido, para que <accent>lideres el momento</accent> en vez de perseguirlo."
+      },
+      {
+        "lead": "Con propósito.",
+        "title": "Estrategia cultural",
+        "description": "Sintonizamos tu marca con los movimientos y ánimos del mundo, para que aparezcas <accent>con significado</accent>, no solo con presencia."
+      },
+      {
+        "lead": "Por qué elegimos.",
+        "title": "Inteligencia del comportamiento",
+        "description": "Descubrimos las emociones detrás de cada decisión, y las usamos para conectar, <accent>mover y perdurar</accent>."
+      }
+    ],
+    "contactCta": "Empecemos <accent>algo grande</accent>",
+    "contactTitle": "¿Te gustaría más información?",
+    "fieldWhat": "¿Cuál servicio?",
+    "fieldEmail": "Correo",
+    "fieldMessage": "¿Algo más?",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "success": "¡Gracias! Te contactaremos.",
+    "error": "Algo salió mal. Inténtalo de nuevo."
+  },
+  "Process": {
+    "items": [
+      {
+        "title": "Tu idea",
+        "description": "Hablamos de la idea y lo que esperas de ella, cómo quieres construirla, quién participa y cómo te ves en ella."
+      },
+      {
+        "title": "Estrategia",
+        "description": "Con todo lo que sabemos, planificamos juntos y aumentamos la claridad que le damos a la idea hasta que sea estable para durar en el tiempo."
+      },
+      {
+        "title": "Backlog y sprints",
+        "description": "Con las ideas vienen los planes. Agendamos cada tarea que podemos ver para que la idea empiece a tomar forma."
+      },
+      {
+        "title": "Tu producto sale en vivo",
+        "description": "Es momento de dar forma a la idea, cumpliendo cada parte del plan. Aquí la idea se vuelve realidad."
+      }
+    ]
+  },
+  "Projects": {
+    "title": "Proyectos",
+    "subtitle": "Lo que estamos construyendo y dónde puedes unirte.",
+    "availableTitle": "Disponibles",
+    "availableSubtitle": "Abiertos para colaborar o invertir.",
+    "workingTitle": "En trabajo",
+    "workingSubtitle": "Actualmente en progreso.",
+    "status": {
+      "available": "Disponible",
+      "inProgress": "En progreso",
+      "completed": "Completado"
+    }
+  },
+  "Partners": {
+    "title": "Socios",
+    "subtitle": "Crecemos con las personas con las que construimos.",
+    "currentTitle": "Nuestros grandes socios",
+    "proposalsTitle": "Propón una alianza",
+    "proposalsSubtitle": "Partnership, corporativo o soluciones de negocio — cuéntanos qué tienes en mente."
+  },
+  "Us": {
+    "title": "Nosotros",
+    "subtitle": "RevDev: encendiendo proyectos y maravillas tecnológicas.",
+    "blocks": [
+      {
+        "title": "Nuestra esencia",
+        "description": "El núcleo de RevDev — donde los proyectos innovadores se encienden y las soluciones de vanguardia prosperan. Nuestra misión es catalizar el éxito de nuestros clientes con tecnología que redefine lo posible."
+      },
+      {
+        "title": "Nuestros valores",
+        "description": "Nuestra cultura está esculpida por valores firmes — la energía detrás de cada decisión, interacción y colaboración con nuestra comunidad de socios, clientes y soñadores."
+      },
+      {
+        "title": "Evolución en movimiento",
+        "description": "Una historia tejida con triunfos y retos. Entender nuestras raíces da perspectiva sobre la base en la que se sostiene nuestro presente."
+      },
+      {
+        "title": "Innovaciones que nos definen",
+        "description": "En el corazón de RevDev están nuestras soluciones. Sus características y ventajas atienden las necesidades en constante evolución de nuestros clientes."
+      },
+      {
+        "title": "Comunidad y mercado",
+        "description": "Nuestro lienzo se extiende a la comunidad que servimos y al mercado que abrazamos. Las aspiraciones de nuestros clientes son nuestra estrella polar."
+      },
+      {
+        "title": "Ventaja competitiva",
+        "description": "Al entender nuestro campo a fondo, componemos estrategias que destacan nuestras fortalezas distintivas."
+      },
+      {
+        "title": "El equipo",
+        "description": "Detrás de RevDev hay una liga de mentes brillantes. Su experiencia es la piedra angular de nuestras operaciones."
+      },
+      {
+        "title": "Más allá del impacto",
+        "description": "Medimos nuestra influencia social y ambiental. RevDev es una búsqueda por enriquecer la sociedad y dejar una huella duradera."
+      }
+    ]
+  },
+  "Careers": {
+    "title": "Empleo",
+    "subtitle": "Toma parte en la acción.",
+    "vacanciesTitle": "Vacantes abiertas",
+    "vacanciesSubtitle": "Un espacio de apoyo, colaboración y empoderamiento.",
+    "roles": [
+      "Frontend",
+      "Backend",
+      "DevOps",
+      "Diseño gráfico",
+      "Creador de video",
+      "Legal"
+    ],
+    "registerText": "¿No ves un puesto para ti ahora? Registra tu interés.",
+    "register": "Registrarme",
+    "perksTitle": "Beneficios",
+    "perks": [
+      "Libera tu potencial",
+      "Trabajo remoto y flexible",
+      "Tecnología de primer nivel"
+    ]
+  },
+  "Footer": {
+    "tagline": "De la idea al lanzamiento.",
+    "columns": [
+      {
+        "heading": "Trabajo",
+        "links": ["Proyectos", "Ideas", "Cómo trabajamos", "Testimonios"]
+      },
+      {
+        "heading": "Servicios",
+        "links": ["Software", "Frontend", "Backend", "Diseño"]
+      },
+      {
+        "heading": "Negocio",
+        "links": ["Socios", "Propuestas", "Nosotros", "Empleo"]
+      }
+    ],
+    "rights": "Todos los derechos reservados."
+  }
+}

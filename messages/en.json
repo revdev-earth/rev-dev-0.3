@@ -1,0 +1,212 @@
+{
+  "Nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "partners": "Partners",
+    "us": "Us",
+    "careers": "Careers"
+  },
+  "Home": {
+    "heroSlides": [
+      [
+        "Achieve what you wish",
+        "It's just a few steps away",
+        "Let's make it happen"
+      ],
+      ["From an idea", "to a real product", "shipped and ready to grow"],
+      ["Design that speaks", "code that lasts", "reach that keeps growing"]
+    ],
+    "servicesTitle": "What we do",
+    "servicesSubtitle": "End-to-end software, from idea to launch.",
+    "processTitle": "How we work",
+    "processSubtitle": "A clear path from your idea to a live product.",
+    "worksTitle": "Selected works",
+    "ctaTitle": "Let's start <accent>something great</accent>",
+    "ctaButton": "Start a project",
+    "bannerTitle": "Projects, partners and services"
+  },
+  "Services": {
+    "title": "Services",
+    "subtitle": "Everything you need to ship and grow a product.",
+    "items": [
+      {
+        "lead": "Built to last.",
+        "title": "Software & infrastructure",
+        "description": "We lay the foundations that hold everything up, the <accent>quiet architecture</accent> beneath every great product, so what you build today still stands tomorrow."
+      },
+      {
+        "lead": "What people see.",
+        "title": "Frontend",
+        "description": "The first impression, the feeling on screen. We craft interfaces that make your people <accent>feel at home</accent> from the very first second."
+      },
+      {
+        "lead": "The engine room.",
+        "title": "Backend",
+        "description": "Out of sight, never out of mind. We tune the connected systems that keep everything fast, safe and <accent>always answering</accent>."
+      },
+      {
+        "lead": "Form with feeling.",
+        "title": "Design",
+        "description": "We draw the shortest path between your idea and <accent>the heart</accent> of whoever sees it, so the whole world understands what you have to give."
+      },
+      {
+        "lead": "Diving deep.",
+        "title": "Market & product intelligence",
+        "description": "We read your data and the currents of the market, so every decision is made with <accent>eyes wide open</accent> and the wind at your back."
+      },
+      {
+        "lead": "Understanding people.",
+        "title": "Research & insight",
+        "description": "We listen closely to what people think, feel and do, and bring back the truths that turn <accent>guesses into certainty</accent>."
+      },
+      {
+        "lead": "The ah-ha.",
+        "title": "Brand & go-to-market strategy",
+        "description": "We find the spark, the truth that makes <accent>everything click</accent>, and hand creativity its edge."
+      },
+      {
+        "lead": "What's next.",
+        "title": "Trends & foresight",
+        "description": "We catch the signals before they become noise, so you <accent>lead the moment</accent> instead of chasing it."
+      },
+      {
+        "lead": "With purpose.",
+        "title": "Cultural strategy",
+        "description": "We tune your brand to the movements and moods of the world, so you show up <accent>with meaning</accent>, not just presence."
+      },
+      {
+        "lead": "Why we choose.",
+        "title": "Behavioral intelligence",
+        "description": "We uncover the emotions behind every decision, and use them to connect, <accent>move and last</accent>."
+      }
+    ],
+    "contactCta": "Let's start <accent>something great</accent>",
+    "contactTitle": "Want more information?",
+    "fieldWhat": "Which service?",
+    "fieldEmail": "Email",
+    "fieldMessage": "Anything else?",
+    "send": "Send",
+    "sending": "Sending...",
+    "success": "Thanks! We'll be in touch.",
+    "error": "Something went wrong. Try again."
+  },
+  "Process": {
+    "items": [
+      {
+        "title": "Your idea",
+        "description": "We talk about the idea and what you expect from it, how you want it built, who takes part and how you see yourself in it."
+      },
+      {
+        "title": "Strategy",
+        "description": "With everything we know, we plan together and increase the clarity we give the idea until it is stable enough to last over time."
+      },
+      {
+        "title": "Backlog & sprints",
+        "description": "With the ideas come the plans. We schedule every issue we can see so the idea starts taking shape."
+      },
+      {
+        "title": "Your product goes live",
+        "description": "Time to give shape to our idea, fulfilling every part of the plan. Here the idea becomes reality."
+      }
+    ]
+  },
+  "Projects": {
+    "title": "Projects",
+    "subtitle": "What we're building and where you can join.",
+    "availableTitle": "Available",
+    "availableSubtitle": "Open to collaborate or invest.",
+    "workingTitle": "In progress",
+    "workingSubtitle": "Currently in the works.",
+    "status": {
+      "available": "Available",
+      "inProgress": "In progress",
+      "completed": "Completed"
+    }
+  },
+  "Partners": {
+    "title": "Partners",
+    "subtitle": "We grow with the people we build alongside.",
+    "currentTitle": "Our great partners",
+    "proposalsTitle": "Propose an alliance",
+    "proposalsSubtitle": "Partnership, corporate or business solutions — tell us what you have in mind."
+  },
+  "Us": {
+    "title": "About us",
+    "subtitle": "RevDev: igniting projects and technological marvels.",
+    "blocks": [
+      {
+        "title": "Our essence",
+        "description": "The very core of RevDev — where innovative projects ignite and cutting-edge solutions thrive. Our mission is to catalyze our clients' success with tech that redefines possibilities."
+      },
+      {
+        "title": "Our values",
+        "description": "Our culture is sculpted by unwavering values — the energy behind every decision, interaction and collaboration with our community of partners, clients and dreamers."
+      },
+      {
+        "title": "Evolution in motion",
+        "description": "A history woven with triumphs and challenges. Understanding our roots gives insight into the foundation our present rests upon."
+      },
+      {
+        "title": "Innovations that define us",
+        "description": "At RevDev's heart are our solutions. Their distinctive features and advantages cater to the ever-evolving needs of our clients."
+      },
+      {
+        "title": "Community & market",
+        "description": "Our canvas extends to the community we serve and the market we embrace. Our clients' aspirations are our North Star."
+      },
+      {
+        "title": "Competitive edge",
+        "description": "By understanding our field intimately, we compose strategies that spotlight our distinctive strengths."
+      },
+      {
+        "title": "The team",
+        "description": "Behind RevDev stands a league of brilliant minds. Their expertise is the cornerstone of our operations."
+      },
+      {
+        "title": "Beyond impact",
+        "description": "We measure our social and environmental influence. RevDev is a quest to enrich society and leave a lasting imprint."
+      }
+    ]
+  },
+  "Careers": {
+    "title": "Careers",
+    "subtitle": "Take part in the action.",
+    "vacanciesTitle": "Open vacancies",
+    "vacanciesSubtitle": "A supportive, collaborative and empowering space.",
+    "roles": [
+      "Frontend",
+      "Backend",
+      "DevOps",
+      "Graphic Design",
+      "Video Maker",
+      "Legal"
+    ],
+    "registerText": "Don't see a role for you right now? Register your interest.",
+    "register": "Register",
+    "perksTitle": "Perks & benefits",
+    "perks": [
+      "Unleash your potential",
+      "Flexible, remote working",
+      "Top-notch technology"
+    ]
+  },
+  "Footer": {
+    "tagline": "From idea to launch.",
+    "columns": [
+      {
+        "heading": "Work",
+        "links": ["Projects", "Ideas", "How we work", "Testimonials"]
+      },
+      {
+        "heading": "Services",
+        "links": ["Software", "Frontend", "Backend", "Design"]
+      },
+      {
+        "heading": "Business",
+        "links": ["Partners", "Proposals", "About", "Careers"]
+      }
+    ],
+    "rights": "All rights reserved."
+  }
+}
