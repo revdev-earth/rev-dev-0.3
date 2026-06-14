@@ -120,7 +120,7 @@ export default async function ServiceDetailPage({
   };
 
   return (
-    <main className="mx-auto max-w-6xl px-6 py-16">
+    <div className="mx-auto max-w-6xl px-6 py-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -206,6 +206,6 @@ export default async function ServiceDetailPage({
         </div>
         <ContactForm />
       </section>
-    </main>
+    </div>
   );
 }

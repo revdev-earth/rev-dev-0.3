@@ -34,9 +34,12 @@ export function absoluteUrl(locale: Locale, path = "") {
 }
 
 export function languageAlternates(path = "") {
-  return Object.fromEntries(
-    routing.locales.map((locale) => [locale, absoluteUrl(locale, path)]),
-  ) as Record<Locale, string>;
+  return {
+    ...Object.fromEntries(
+      routing.locales.map((locale) => [locale, absoluteUrl(locale, path)]),
+    ),
+    "x-default": absoluteUrl(routing.defaultLocale, path),
+  } as Record<Locale | "x-default", string>;
 }
 
 export function pageMetadata({

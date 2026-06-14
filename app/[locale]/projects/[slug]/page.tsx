@@ -111,7 +111,7 @@ export default async function ProjectCasePage({
   };
 
   return (
-    <main className="mx-auto max-w-6xl px-6 py-16">
+    <div className="mx-auto max-w-6xl px-6 py-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLd(projectJsonLd) }}
@@ -214,6 +214,6 @@ export default async function ProjectCasePage({
           </a>
         </Reveal>
       </section>
-    </main>
+    </div>
   );
 }

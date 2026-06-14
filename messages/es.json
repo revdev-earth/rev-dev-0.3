@@ -174,15 +174,11 @@
     "columns": [
       {
         "heading": "Trabajo",
-        "links": ["Proyectos", "Ideas", "Cómo trabajamos", "Testimonios"]
+        "links": ["Inicio", "Servicios", "Proyectos"]
       },
       {
-        "heading": "Servicios",
-        "links": ["Software", "Frontend", "Backend", "Diseño"]
-      },
-      {
-        "heading": "Negocio",
-        "links": ["Socios", "Propuestas", "Nosotros", "Empleo"]
+        "heading": "Compañía",
+        "links": ["Socios", "Nosotros", "Empleo"]
       }
     ],
     "rights": "Todos los derechos reservados."

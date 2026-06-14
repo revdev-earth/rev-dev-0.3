@@ -182,15 +182,11 @@
     "columns": [
       {
         "heading": "Arbeit",
-        "links": ["Projekte", "Ideen", "Wie wir arbeiten", "Referenzen"]
+        "links": ["Start", "Leistungen", "Projekte"]
       },
       {
-        "heading": "Leistungen",
-        "links": ["Software", "Frontend", "Backend", "Design"]
-      },
-      {
-        "heading": "Geschäft",
-        "links": ["Partner", "Vorschläge", "Über uns", "Karriere"]
+        "heading": "Firma",
+        "links": ["Partner", "Über uns", "Karriere"]
       }
     ],
     "rights": "Alle Rechte vorbehalten."

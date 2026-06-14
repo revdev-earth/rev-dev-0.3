@@ -38,19 +38,15 @@ export default function Footer() {
             <ul className="mt-3 space-y-2">
               {col.links.map((link) => {
                 const href = routeByLabel[link];
+                if (!href) return null;
+
                 const className =
                   "text-foreground/60 hover:text-foreground text-sm transition-colors";
                 return (
                   <li key={link}>
-                    {href ? (
-                      <Link href={href} className={className}>
-                        {link}
-                      </Link>
-                    ) : (
-                      <a href="#" className={className}>
-                        {link}
-                      </a>
-                    )}
+                    <Link href={href} className={className}>
+                      {link}
+                    </Link>
                   </li>
                 );
               })}

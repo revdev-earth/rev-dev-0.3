@@ -178,15 +178,11 @@
     "columns": [
       {
         "heading": "Work",
-        "links": ["Projects", "Ideas", "How we work", "Testimonials"]
+        "links": ["Home", "Services", "Projects"]
       },
       {
-        "heading": "Services",
-        "links": ["Software", "Frontend", "Backend", "Design"]
-      },
-      {
-        "heading": "Business",
-        "links": ["Partners", "Proposals", "About", "Careers"]
+        "heading": "Company",
+        "links": ["Partners", "Us", "Careers"]
       }
     ],
     "rights": "All rights reserved."
