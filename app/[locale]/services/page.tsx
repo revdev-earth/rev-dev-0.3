@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import ContactForm from "@/components/ContactForm";
+import Reveal from "@/components/Reveal";
 import Accent from "@/components/Accent";
 import { serviceIcons } from "@/lib/serviceIcons";
 
@@ -29,23 +30,25 @@ function ServicesContent() {
         {items.map((s, i) => {
           const Icon = serviceIcons[i];
           return (
-            <div
-              key={s.title}
-              className="rounded-xl border border-black/10 p-6 dark:border-white/10"
-            >
-              {Icon && (
-                <Icon className="text-foreground/70 mb-4 h-8 w-8" aria-hidden />
-              )}
-              <p className="text-foreground/70 text-lg">
-                <Accent>{s.lead}</Accent>
-              </p>
-              <h2 className="mt-1 font-semibold">{s.title}</h2>
-              <p className="text-foreground/60 mt-2 text-sm">
-                {t.rich(`items.${i}.description`, {
-                  accent: (c) => <Accent>{c}</Accent>,
-                })}
-              </p>
-            </div>
+            <Reveal key={s.title} delay={i * 0.08}>
+              <div className="group rounded-xl border border-black/10 p-6 transition-all hover:-translate-y-1 hover:border-foreground/20 hover:shadow-lg dark:border-white/10">
+                {Icon && (
+                  <Icon
+                    className="text-foreground/70 mb-4 h-8 w-8 transition-transform duration-300 group-hover:scale-110"
+                    aria-hidden
+                  />
+                )}
+                <p className="text-foreground/70 text-lg">
+                  <Accent>{s.lead}</Accent>
+                </p>
+                <h2 className="mt-1 font-semibold">{s.title}</h2>
+                <p className="text-foreground/60 mt-2 text-sm">
+                  {t.rich(`items.${i}.description`, {
+                    accent: (c) => <Accent>{c}</Accent>,
+                  })}
+                </p>
+              </div>
+            </Reveal>
           );
         })}
       </div>
